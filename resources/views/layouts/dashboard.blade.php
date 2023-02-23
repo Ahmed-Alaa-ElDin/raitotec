@@ -1611,13 +1611,13 @@
 {{-- <script src="../assets/js/soft-ui-dashboard-tailwind.js?v=1.0.4" async></script> --}}
 {{-- <script src="../assets/js/plugins/perfect-scrollbar.min.js" async></script> --}}
 
-<script src="{{ asset('js/tooltips.js') }}"></script>
+{{-- <script src="{{ asset('js/tooltips.js') }}"></script>
 <script src="{{ asset('js/dropdown.js') }}"></script>
 <script src="{{ asset('js/fixed-plugin.js') }}"></script>
 <script src="{{ asset('js/sidenav-burger.js') }}"></script>
 <script src="{{ asset('js/navbar-sticky.js') }}"></script>
 <script src="{{ asset('js/chart-1.js') }}"></script>
-<script src="{{ asset('js/chart-2.js') }}"></script>
+<script src="{{ asset('js/chart-2.js') }}"></script> --}}
 
 <!-- plugin for charts  -->
 <script src="{{ asset('js/plugins/chartjs.min.js') }}"></script>
@@ -1626,6 +1626,6 @@
 <script src="{{ asset('js/plugins/perfect-scrollbar.min.js') }}" ></script>
 
 <!-- main script file  -->
-<script src="{{ asset('js/soft-ui-dashboard-tailwind.min.js') }}" ></script>
+<script src="{{ asset('js/soft-ui-dashboard-tailwind.js') }}" ></script>
 
 </html>
