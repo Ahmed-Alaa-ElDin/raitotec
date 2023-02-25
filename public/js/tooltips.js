@@ -1,3 +1,4 @@
+if (document.querySelector("[data-target='tooltip']")) {
 var buttons = document.querySelectorAll("[data-target='tooltip_trigger']");
 
 buttons.forEach((button) => {
@@ -55,3 +56,4 @@ buttons.forEach((button) => {
     button.addEventListener(event, hide);
   });
 });
+}

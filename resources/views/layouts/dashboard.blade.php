@@ -5,10 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('img/apple-icon.png') }}" />
-    {{-- <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png" /> --}}
-    <link rel="icon" type="image/png" href="{{ asset('img/favicon.png') }}" />
-    {{-- <link rel="icon" type="image/png" href="../assets/img/favicon.png" /> --}}
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('img/logos/r-logo.png') }}" />
+    <link rel="icon" type="image/png" href="{{ asset('img/logos/r-logo.png') }}" />
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
@@ -35,11 +33,11 @@
         <div class="h-19.5">
             <i class="absolute top-0 right-0 hidden p-4 opacity-50 cursor-pointer fas fa-times text-slate-400 xl:hidden"
                 sidenav-close></i>
-            <a class="block px-8 py-6 m-0 text-sm whitespace-nowrap text-slate-700" href="javascript:;" target="_blank">
-                <img src="{{ asset('img/logo-ct.png') }}"
+            <a class="block px-8 py-6 m-0 text-lg whitespace-nowrap text-slate-700" href="javascript:;" target="_blank">
+                <img src="{{ asset('img/logos/r-logo.png') }}"
                     class="inline h-full max-w-full transition-all duration-200 ease-nav-brand max-h-8"
-                    alt="main_logo" />
-                <span class="ml-1 font-semibold transition-all duration-200 ease-nav-brand">Soft UI Dashboard</span>
+                    alt="raitotec_logo" />
+                <span class="ml-1 font-semibold transition-all duration-200 ease-nav-brand">aitotec Store</span>
             </a>
         </div>
 
@@ -72,7 +70,7 @@
                                 </g>
                             </svg>
                         </div>
-                        <span class="ml-1 duration-300 opacity-100 pointer-events-none ease-soft">Dashboard</span>
+                        <span class="ml-1 duration-300 opacity-100 pointer-events-none ease-soft">Home</span>
                     </a>
                 </li>
 
